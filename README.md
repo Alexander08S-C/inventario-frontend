@@ -1,16 +1,35 @@
-# React + Vite
+# 🏪 Sistema de Gestión de Inventario - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web desarrollada con **React + Vite + Tailwind CSS** para gestionar inventario de productos.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías
+- React 18 + Vite
+- Tailwind CSS
+- Zustand (estado global)
+- Axios (peticiones HTTP)
+- Recharts (gráficas)
+- jsPDF + jspdf-autotable (exportar PDF)
+- XLSX + file-saver (exportar Excel)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✅ Funcionalidades
+- Login con autenticación JWT
+- Dashboard con gráficas interactivas
+- CRUD de Productos con imágenes
+- CRUD de Categorías y Proveedores
+- Gestión de Usuarios y Roles
+- Movimientos de Stock (entradas/salidas/ajustes)
+- Módulo de Ventas con recibo PDF
+- Reportes exportables en PDF y Excel
+- Modo oscuro
+- Diseño responsive (móvil y escritorio)
 
-## React Compiler
+## ⚙️ Instalación
+```bash
+git clone https://github.com/Alexander08S-C/inventario-frontend.git
+cd inventario-frontend
+npm install
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔗 Backend
+[inventario-backend](https://github.com/Alexander08S-C/inventario-backend)
